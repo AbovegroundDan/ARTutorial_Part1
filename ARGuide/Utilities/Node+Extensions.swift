@@ -19,11 +19,11 @@ extension SCNNode {
                 return nodesInFile
             }
             
-            let objScene = try SCNScene(url: sceneURL as URL, options: [SCNSceneSource.LoadingOption.animationImportPolicy:SCNSceneSource.AnimationImportPolicy.doNotPlay])
+            let objScene = try SCNScene(url: sceneURL as URL, options: [SCNSceneSource.LoadingOption.animationImportPolicy: SCNSceneSource.AnimationImportPolicy.doNotPlay])
             
-            for childNode in objScene.rootNode.childNodes {
-                nodesInFile.append(childNode)
-            }
+            objScene.rootNode.enumerateChildNodes({ (node, _) in
+                nodesInFile.append(node)
+            })
         } catch {
             
         }

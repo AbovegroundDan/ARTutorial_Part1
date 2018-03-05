@@ -30,8 +30,17 @@ struct HoverScene {
         let ambientLightNode = SCNNode()
         ambientLightNode.light = SCNLight()
         ambientLightNode.light?.type = SCNLight.LightType.ambient
-        ambientLightNode.light?.color = UIColor(white: 0.6, alpha: 1.0)
+        ambientLightNode.light?.color = UIColor(white: 0.8, alpha: 1.0)
         scene.rootNode.addChildNode(ambientLightNode)
+        
+        // Create a directional light with an angle to provide a more interesting look
+        let directionalLight = SCNLight()
+        directionalLight.type = .directional
+        directionalLight.color = UIColor(white: 0.8, alpha: 1.0)
+        let directionalNode = SCNNode()
+        directionalNode.eulerAngles = SCNVector3Make(GLKMathDegreesToRadians(-40), GLKMathDegreesToRadians(0), GLKMathDegreesToRadians(0))
+        directionalNode.light = directionalLight
+        scene.rootNode.addChildNode(directionalNode)
     }
     
     func addSphere(position: SCNVector3) {
@@ -40,7 +49,7 @@ struct HoverScene {
         
         let containerNode = SCNNode()
         
-        let nodesInFile = SCNNode.allNodes(from: "Gas_Ball.dae")
+        let nodesInFile = SCNNode.allNodes(from: "sphere.dae")
         nodesInFile.forEach { (node) in
             containerNode.addChildNode(node)
         }

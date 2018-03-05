@@ -13,8 +13,7 @@
 		092A3E8120372FCB006A8935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092A3E8020372FCB006A8935 /* Assets.xcassets */; };
 		092A3E8420372FCB006A8935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092A3E8220372FCB006A8935 /* LaunchScreen.storyboard */; };
 		092A3E8E2039E240006A8935 /* HoverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A3E8D2039E240006A8935 /* HoverScene.swift */; };
-		095CA4362039EEC70013FBF1 /* Gas_Ball.dae in Resources */ = {isa = PBXBuildFile; fileRef = 095CA4342039EEC70013FBF1 /* Gas_Ball.dae */; };
-		095CA4372039EEC70013FBF1 /* items_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 095CA4352039EEC70013FBF1 /* items_03.jpg */; };
+		095029BF20475F1A00B57FA4 /* sphere.dae in Resources */ = {isa = PBXBuildFile; fileRef = 095029BE20475F1900B57FA4 /* sphere.dae */; };
 		095CA43A2039F1AE0013FBF1 /* Node+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CA4392039F1AE0013FBF1 /* Node+Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +26,7 @@
 		092A3E8320372FCB006A8935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		092A3E8520372FCB006A8935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		092A3E8D2039E240006A8935 /* HoverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverScene.swift; sourceTree = "<group>"; };
-		095CA4342039EEC70013FBF1 /* Gas_Ball.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Gas_Ball.dae; sourceTree = "<group>"; };
-		095CA4352039EEC70013FBF1 /* items_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = items_03.jpg; sourceTree = "<group>"; };
+		095029BE20475F1900B57FA4 /* sphere.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = sphere.dae; sourceTree = "<group>"; };
 		095CA4392039F1AE0013FBF1 /* Node+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Node+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,8 +76,7 @@
 		092A3E8B20377F56006A8935 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				095CA4342039EEC70013FBF1 /* Gas_Ball.dae */,
-				095CA4352039EEC70013FBF1 /* items_03.jpg */,
+				095029BE20475F1900B57FA4 /* sphere.dae */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,9 +156,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095CA4362039EEC70013FBF1 /* Gas_Ball.dae in Resources */,
+				095029BF20475F1A00B57FA4 /* sphere.dae in Resources */,
 				092A3E8420372FCB006A8935 /* LaunchScreen.storyboard in Resources */,
-				095CA4372039EEC70013FBF1 /* items_03.jpg in Resources */,
 				092A3E8120372FCB006A8935 /* Assets.xcassets in Resources */,
 				092A3E7F20372FCB006A8935 /* Main.storyboard in Resources */,
 			);
