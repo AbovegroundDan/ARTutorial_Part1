@@ -15,6 +15,9 @@
 		092A3E8E2039E240006A8935 /* HoverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A3E8D2039E240006A8935 /* HoverScene.swift */; };
 		095029BF20475F1A00B57FA4 /* sphere.dae in Resources */ = {isa = PBXBuildFile; fileRef = 095029BE20475F1900B57FA4 /* sphere.dae */; };
 		095CA43A2039F1AE0013FBF1 /* Node+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CA4392039F1AE0013FBF1 /* Node+Extensions.swift */; };
+		09C7C7FF205324180066152C /* ORB_Body_Diff.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C7C7FC205324180066152C /* ORB_Body_Diff.png */; };
+		09C7C800205324180066152C /* ORB_Eye_Diff.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C7C7FD205324180066152C /* ORB_Eye_Diff.png */; };
+		09C7C801205324180066152C /* ORB_Circles_Diff.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C7C7FE205324180066152C /* ORB_Circles_Diff.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		092A3E8D2039E240006A8935 /* HoverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverScene.swift; sourceTree = "<group>"; };
 		095029BE20475F1900B57FA4 /* sphere.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = sphere.dae; sourceTree = "<group>"; };
 		095CA4392039F1AE0013FBF1 /* Node+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Node+Extensions.swift"; sourceTree = "<group>"; };
+		09C7C7FC205324180066152C /* ORB_Body_Diff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ORB_Body_Diff.png; sourceTree = "<group>"; };
+		09C7C7FD205324180066152C /* ORB_Eye_Diff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ORB_Eye_Diff.png; sourceTree = "<group>"; };
+		09C7C7FE205324180066152C /* ORB_Circles_Diff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ORB_Circles_Diff.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,9 @@
 		092A3E8B20377F56006A8935 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				09C7C7FC205324180066152C /* ORB_Body_Diff.png */,
+				09C7C7FE205324180066152C /* ORB_Circles_Diff.png */,
+				09C7C7FD205324180066152C /* ORB_Eye_Diff.png */,
 				095029BE20475F1900B57FA4 /* sphere.dae */,
 			);
 			path = Models;
@@ -157,8 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				095029BF20475F1A00B57FA4 /* sphere.dae in Resources */,
+				09C7C7FF205324180066152C /* ORB_Body_Diff.png in Resources */,
+				09C7C800205324180066152C /* ORB_Eye_Diff.png in Resources */,
 				092A3E8420372FCB006A8935 /* LaunchScreen.storyboard in Resources */,
 				092A3E8120372FCB006A8935 /* Assets.xcassets in Resources */,
+				09C7C801205324180066152C /* ORB_Circles_Diff.png in Resources */,
 				092A3E7F20372FCB006A8935 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
