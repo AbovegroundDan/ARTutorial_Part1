@@ -18,7 +18,7 @@ Shows scene initialization, how to create an object and add it to the scene when
 4. Run the project in a real device with iOS 11. AR can't work in the simulator, so you'll need to configure a team to be able to run your app on a device.
 
 # Credits
-The sphere 3D model was created by Vlad Nikiforov:
+The sphere 3D model was created by Vladimir Nikiforov:
 - This file is licensed under [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/).
 
 
