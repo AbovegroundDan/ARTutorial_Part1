@@ -1,6 +1,6 @@
 # AR Tutorial Part1 - Model pipeline, and object placement
 
-A simple first tutorial for getting an ARKit scene up and running with SceneKit. Follow the [tutorial at the Nike S23NYC Engineering blog](https://medium.com/s23nyc-tech).
+A simple first tutorial for getting an ARKit scene up and running with SceneKit. Follow the [tutorial at the Nike S23NYC Engineering blog](https://medium.com/s23nyc-tech/getting-started-with-arkit-and-scenekit-76814862cc75).
 
 Shows scene initialization, how to create an object and add it to the scene when you tap. 
 
